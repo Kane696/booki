@@ -1,0 +1,291 @@
+@media only screen and (max-width: 767px){
+
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0px 0px 30px 0px
+    }
+
+    header nav ul {
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    #logo img{
+        margin: 20px auto;
+        display: block;
+    }
+    
+    .nav-item{
+        width: 50%;
+    }
+
+    .nav-link{
+        border-bottom: 2px solid var(--main-bg-color);
+        border-top: none;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-link:first-of-type{
+        padding-left: 0px;
+    }
+
+    /************
+    ****** MAIN
+    *************/
+
+    main { 
+        margin: 0px;
+    }
+
+    /************
+    ****** HERO SEARCHBOX
+    *************/
+
+    #hero-searchbox {
+        margin: 0px 5% 50px 5%;
+    }
+
+    .search__btn{
+        width: 50px;
+        border-top-left-radius: 15.5px;
+        border-bottom-left-radius: 15.5px;
+    }
+
+    #search-form input[type="text"]{
+        margin-right: -30px;
+        border-right: none;
+    }
+
+    .search__btn:nth-of-type(1){
+        display: none;
+    }
+
+    .search__btn:nth-of-type(2){
+        display: block;
+    }
+
+    #searchbox h1{
+        font-size: 25px;
+    }
+
+
+    #filters-container{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #filters-container h3{
+        margin-bottom: 15px;
+    }
+
+    
+    /************
+    ****** HEBERGEMENTS
+    *************/
+
+    #hebergements{
+        flex-direction: column-reverse;
+    }
+
+    .hebergements-container {
+        padding: 35px 20px;
+        border-radius: 0px;
+    }
+
+    .hebergements-container:nth-child(1){
+        background-color: white;
+    }
+
+    #search-results,
+    #more-popular{
+        max-width: 100%;
+    }
+    
+    .card-hebergement{
+        width: 100%;
+    }
+
+    /************
+    ****** ACTIVITES
+    *************/
+
+    #activity {
+        margin: 0px 5% 50px 5%;
+    }
+
+
+    #card-activity__container,
+    .card-activity__box,
+    .card-activity__link,
+    .card-activity__img{
+        width: 100%;
+    }
+
+    #card-activity__container{
+        height: 100%;
+        gap: 18px;
+    }   
+
+    .card-activity__link{
+        height: 190px;
+    }
+
+    .card-activity__img,
+    .card-activity__link:nth-of-type(3n+1) .card-activity__img{
+        height: 134px;
+    }
+
+    /************
+    ****** FOOTER
+    *************/
+
+    footer{
+        padding: 30px 5%;
+    }
+
+    #footer-nav{
+        height: 350px;
+        flex-direction: column;
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+   
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0px 0px 30px 0px
+    }
+
+    #logo img{
+        margin: 30px auto;
+        display: block;
+    }
+    
+
+    header nav ul {
+        justify-content: space-between;
+        width: 100%;
+    }
+    
+    .nav-item{
+        width: 50%;
+    }
+
+    .nav-link{
+        border-bottom: 2px solid var(--main-bg-color);
+        border-top: none;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-link:first-of-type{
+        padding-left: 0px;
+    }
+
+    /************
+    ****** MAIN
+    *************/
+
+    main { 
+        margin: 0px;
+    }
+
+
+    /************
+    ****** HERO SEARCHBOX
+    *************/
+    
+    #hero-searchbox {
+        margin: 0px 5% 50px 5%;
+    }
+
+    #filters-container{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #filters-container h3{
+        margin-bottom: 15px;
+    }
+
+    
+    /************
+    ****** HEBERGEMENTS
+    *************/
+
+    #hebergements{
+        flex-direction: column-reverse;
+    }
+
+    .hebergements-container {
+        border-radius: 0px;
+    }
+
+
+    .hebergements-container:nth-child(1){
+        background-color: white;
+    }
+
+    #search-results{
+        max-width: 100%;
+    }
+    
+    #more-popular{
+        min-width: 100%;
+    }
+
+    .card-hebergement{
+        width: 48%;
+    }
+
+    /************
+    ****** ACTIVITES
+    *************/
+
+    #activity {
+        margin: 0px 5% 50px 5%;
+    }
+
+    #card-activity__container{
+        height: 100%;
+    }
+    
+    .card-activity__box{
+        width: 48%;
+    }
+
+    .card-activity__link,
+    .card-activity__img{
+        width: 100%;
+    }
+
+    .card-activity__link:nth-of-type(3n+1) .card-activity__img{
+        height: 185px;
+    }
+
+
+    /************
+    ****** FOOTER
+    *************/
+
+    footer {
+        padding: 30px 5%;
+    }
+
+    #footer-nav {
+        max-width: 80%;
+    }
+
+}
